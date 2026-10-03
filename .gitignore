@@ -1,0 +1,20 @@
+# Environment variables - sensitive, never commit
+.env
+
+# Dependencies
+vendor/
+
+# Uploaded files (user-generated content)
+admin/uploads/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
